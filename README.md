@@ -12,12 +12,7 @@ The bot will randomly assign people to give presents to each other.
 <u>How do I run it on my computer?</u>
 1) Get your token from BotFather
 2) Create file ".env" in the root directory of the project
-3) Paste your token into the file like this
-
-```
-TOKEN=bot_token
-OWNER=your_telegram_username
-```
+3) Paste your token into the file like this `TOKEN=bot_token OWNER=your_telegram_username`
 4) [Create a virtual environment](https://docs.python.org/3/tutorial/venv.html#creating-virtual-environments) 
 5) Install dependencies with `pip install -r requirements.txt`
 6) Run the bot with `python3 main.py`
@@ -41,5 +36,6 @@ This project shows transition from a quickly written minimal version to a more s
 - [x] Make MVP version with memory storage and Russian language
 - [ ] Split logic into layers (handlers, services, repositories)
 - [ ] Support more storage types (local file, MongoDB, PostgreSQL)
-- [ ] Add tests
+- [ ] Test all layers
 - [ ] Support more languages (English, Spanish)
+- [ ] Dockerize

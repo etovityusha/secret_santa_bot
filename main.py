@@ -5,16 +5,15 @@ from typing import Coroutine, Any
 
 from aiogram import Bot, Dispatcher, executor, types
 
-from settings import API_TOKEN, OWNER
+from settings import TOKEN, OWNER
 from users import User, users
 
-# Initialize bot and dispatcher
-bot = Bot(token=API_TOKEN)
+bot = Bot(token=TOKEN)
 
 
 async def cmd_start(message: types.Message) -> None:
     if users:
-        sub = f"{', '.join([f'@{user.username} ' for user in users])}уже здесь!"
+        sub = f"{', '.join([f'@{user.username}' for user in users])} уже здесь!"
     else:
         sub = "Пока ты первый!"
     message_text = f"""

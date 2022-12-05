@@ -34,9 +34,9 @@ This project shows transition from a quickly written minimal version to a more s
 
 ##### TODO:
 
-[x] Make MVP version with memory storage and Russian language
-[ ] Split logic into layers (handlers, services, repositories)
-[ ] Support more storage types (local file, MongoDB, PostgreSQL)
-[ ] Test all layers
-[ ] Support more languages (English, Spanish)
-[ ] Dockerize
+- [X]  Make MVP version with memory storage and Russian language
+- [ ]  Split logic into layers (handlers, services, repositories)
+- [ ]  Support more storage types (local file, MongoDB, PostgreSQL)
+- [ ]  Test all layers
+- [ ]  Support more languages (English, Spanish)
+- [ ]  Dockerize

@@ -1,15 +1,13 @@
 <h3>Secret Santa Bot</h3>
 
-<u>What is Secret Santa?</u>
-
+<h4>What is Secret Santa?</h4>
 Secret Santa is a simple way to exchange gifts among a group of people. This bot is designed to help you run a Secret Santa exchange.
 
-<u>How does it work?</u>
-
+<h4>How does it work?</h4>
 The bot will randomly assign people to give presents to each other.
 
 
-<u>How do I run it on my computer?</u>
+<h4>How do I run it on my computer?</h4>
 1) Get your token from BotFather
 2) Create file ".env" in the root directory of the project
 3) Paste your token into the file like this `TOKEN=bot_token OWNER=your_telegram_username`
@@ -21,10 +19,8 @@ The bot will randomly assign people to give presents to each other.
 
 All users will receive their Secret Santa assignments! 🎁
 
-<u>How do I run it on a server?</u>
-
+<h4>How do I run it on a server?</h4>
 You can use [Heroku](https://www.heroku.com/) to run the bot on a server. You can find a tutorial [here](https://devcenter.heroku.com/articles/getting-started-with-python).
-
 
 
 In MVP version bot supports only russian language.
